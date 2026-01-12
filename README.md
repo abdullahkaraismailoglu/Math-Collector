@@ -1,60 +1,58 @@
-🧮 Math-Collector
+🎮 Math Collector Game
 
-Math-Collector is a 2D math-based collecting game developed in Java 🎮
-This repository contains the full source code, compiled class files, project assets, and documentation for the game.
+Math Collector is a simple 2D Java game developed using Java Swing.
+The goal of the game is to collect correct math results while avoiding incorrect ones.
+As the score increases, the game becomes faster and more challenging.
 
-🚀 Project Overview
+🚀 Features
 
-Math-Collector is an arcade-style educational game where the player collects numbers and tries to reach specific mathematical goals. Throughout the game:
+🎯 Real-time score system
 
-The player controls a character,
+⚡ Increasing difficulty as score increases
 
-Collects number objects on the screen,
+🎨 Color-based obstacle logic
 
-Tries to complete defined objectives or levels,
+⏱ Smooth game loop using Timer
 
-Faces increasing difficulty with new obstacles and mechanics as the game progresses.
+🔁 Restart system
 
-This repository includes:
+⌨️ Keyboard controls
 
-Java source files (.java),
+🕹 How to Play
 
-Compiled class files (.class),
+Press SPACE to jump
 
-Game documentation (PDF),
+Collect obstacles with the same color as the player
 
-Supporting game assets and logic files.
+Avoid obstacles with different colors
 
-📁 Project Structure
-Math-Collector/
-├── MathCollector/  
-│   ├── bin/
-│   │   ├── Bomb.class
-│   │   ├── GameFrame.class
-│   │   ├── GamePanel.class
-│   │   ├── Main.class
-│   │   ├── NumberObject.class
-│   │   └── Player.class
-│   └── src/
-│       ├── Bomb.java
-│       ├── GameFrame.java
-│       ├── GamePanel.java
-│       ├── Main.java
-│       ├── NumberObject.java
-│       └── Player.java
-├── Math Collector Game Information Pages.pdf
-└── README.md
+Press R to restart the game after Game Over
 
+🧠 Game Logic
 
-The MathCollector directory contains both the source code and compiled versions of the game.
+Each obstacle has a random color
 
-⚙️ Requirements
+The player's color changes when leveling up
 
-To run this project, you need:
+Points are awarded only when passing or colliding with matching colors
 
-✔️ Java JDK 8 or higher
-✔️ A Java IDE (IntelliJ IDEA, Eclipse, NetBeans, etc.)
-✔️ javac and java command-line tools
+Game speed increases every level
+
+🛠 Technologies Used
+
+Java
+
+Java Swing (JPanel, Timer, Graphics)
+
+Object-Oriented Programming (OOP)
+
+📂 Project Structure
+
+Panel.java → Main game panel and game loop
+
+Obstacles.java → Obstacle logic and rendering
+
+Main.java → Application entry point
 
 ▶️ How to Run
 
@@ -63,58 +61,23 @@ Clone the repository:
 git clone https://github.com/abdullahkaraismailoglu/Math-Collector.git
 
 
-Navigate into the project directory:
+Open the project in an IDE (IntelliJ IDEA / Eclipse)
 
-cd Math-Collector
-
-
-Compile the source files:
-
-javac MathCollector/src/*.java
+Run the Main class
 
 
-Run the game:
+📌 Future Improvements
 
-java -cp MathCollector/src Main
+Sound effects
 
+Better animations
 
-If the .class files are already compiled under bin/, you can directly run the Main class from your IDE.
+High score system
 
-🎮 Game Features
+Mobile version
 
-🎯 Player Control: The player moves the character using keyboard controls.
+👤 Author
 
-🧠 Number Interaction: Collect and interact with number objects.
+Abdullah Karaismailoğlu
 
-⏱️ Score & Levels: Progress through levels by reaching score or math targets.
-
-💥 Obstacles: Bombs and obstacles add challenge and excitement.
-
-📈 Increasing Difficulty: Game speed and mechanics scale with progress.
-
-🛠️ Development
-
-If you would like to contribute:
-
-Fork the repository,
-
-Make your changes,
-
-Submit a pull request.
-
-You can also:
-
-Report bugs via Issues,
-
-Suggest new features or improvements.
-
-📄 License
-
-No explicit license file is included in the repository.
-It is recommended to add a license (e.g., MIT License) if you plan to distribute or reuse the code.
-
-📞 Contact
-
-Project Owner: abdullahkaraismailoglu
-GitHub Repository:
-👉 https://github.com/abdullahkaraismailoglu/Math-Collector
+GitHub: https://github.com/abdullahkaraismailoglu
