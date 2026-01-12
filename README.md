@@ -23,7 +23,7 @@
   - Wrong numbers
 - Complete all levels **before time runs out**
 
-> ⚠️ There is **no jump mechanic** in the game — movement is limited to left and right.
+
 
 ---
 
