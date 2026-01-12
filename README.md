@@ -1,83 +1,70 @@
 # 🎮 Math Collector Game
 
-Math Collector is a simple 2D Java game developed using Java Swing.
-The goal of the game is to collect correct math results while avoiding incorrect ones.
-As the score increases, the game becomes faster and more challenging.
+Math Collector is a simple 2D arcade-style game developed using **Java Swing**.  
+The goal of the game is to collect correct mathematical answers while avoiding incorrect ones.
 
-## 🚀 Features
+---
 
-## 🎯 Real-time score system
+## 📌 Project Overview
 
-## ⚡ Increasing difficulty as score increases
+This project was developed as part of an academic assignment to demonstrate:
+- Object-Oriented Programming (OOP)
+- Game logic implementation
+- Event handling
+- GUI development with Java Swing
 
-## 🎨 Color-based obstacle logic
+The game challenges the player’s reflexes and basic math skills.
 
-## ⏱ Smooth game loop using Timer
+---
 
-## 🔁 Restart system
+## 🕹 How to Play
 
-## ⌨️ Keyboard controls
+- The player controls a ball character.
+- Obstacles move from right to left across the screen.
+- Each obstacle contains a mathematical value.
+- **Correct answers increase the score.**
+- **Incorrect answers end the game.**
+- The game speed increases as the score increases.
 
-# 🕹 How to Play
+---
 
-Press SPACE to jump
+## 🎯 Game Features
 
-Collect obstacles with the same color as the player
+- Real-time obstacle generation
+- Collision detection
+- Score system
+- Level system with increasing difficulty
+- Restart functionality
+- Smooth animations using `Timer`
 
-Avoid obstacles with different colors
+---
 
-Press R to restart the game after Game Over
+## 🎮 Controls
 
-# 🧠 Game Logic
+| Key | Action |
+|---|---|
+| `SPACE` | Jump |
+| `R` | Restart the game after Game Over |
 
-Each obstacle has a random color
+---
 
-The player's color changes when leveling up
+## 🛠 Technologies Used
 
-Points are awarded only when passing or colliding with matching colors
+- **Java**
+- **Java Swing**
+- **AWT**
+- **Object-Oriented Programming (OOP)**
 
-Game speed increases every level
+---
 
-#🛠 Technologies Used
+## 🧠 Game Logic
 
-Java
+- Gravity and jump mechanics are implemented using velocity calculations.
+- Obstacles move dynamically based on the current game speed.
+- Collision detection is handled with rectangle intersection logic.
+- Score and level progression are managed dynamically during gameplay.
 
-Java Swing (JPanel, Timer, Graphics)
+---
 
-Object-Oriented Programming (OOP)
+## 📂 Project Structure
 
-# 📂 Project Structure
-
-Panel.java → Main game panel and game loop
-
-Obstacles.java → Obstacle logic and rendering
-
-Main.java → Application entry point
-
-# ▶️ How to Run
-
-Clone the repository:
-
-git clone https://github.com/abdullahkaraismailoglu/Math-Collector.git
-
-
-Open the project in an IDE (IntelliJ IDEA / Eclipse)
-
-Run the Main class
-
-
-# 📌 Future Improvements
-
-Sound effects
-
-Better animations
-
-High score system
-
-Mobile version
-
-#👤 Author
-
-Abdullah Karaismailoğlu
-
-GitHub: https://github.com/abdullahkaraismailoglu
