@@ -1,24 +1,24 @@
-🎮 Math Collector Game
+#🎮 Math Collector Game
 
 Math Collector is a simple 2D Java game developed using Java Swing.
 The goal of the game is to collect correct math results while avoiding incorrect ones.
 As the score increases, the game becomes faster and more challenging.
 
-🚀 Features
+##🚀 Features
 
-🎯 Real-time score system
+##🎯 Real-time score system
 
-⚡ Increasing difficulty as score increases
+##⚡ Increasing difficulty as score increases
 
-🎨 Color-based obstacle logic
+##🎨 Color-based obstacle logic
 
-⏱ Smooth game loop using Timer
+##⏱ Smooth game loop using Timer
 
-🔁 Restart system
+##🔁 Restart system
 
-⌨️ Keyboard controls
+##⌨️ Keyboard controls
 
-🕹 How to Play
+#🕹 How to Play
 
 Press SPACE to jump
 
@@ -28,7 +28,7 @@ Avoid obstacles with different colors
 
 Press R to restart the game after Game Over
 
-🧠 Game Logic
+#🧠 Game Logic
 
 Each obstacle has a random color
 
@@ -38,7 +38,7 @@ Points are awarded only when passing or colliding with matching colors
 
 Game speed increases every level
 
-🛠 Technologies Used
+#🛠 Technologies Used
 
 Java
 
@@ -46,7 +46,7 @@ Java Swing (JPanel, Timer, Graphics)
 
 Object-Oriented Programming (OOP)
 
-📂 Project Structure
+#📂 Project Structure
 
 Panel.java → Main game panel and game loop
 
@@ -54,7 +54,7 @@ Obstacles.java → Obstacle logic and rendering
 
 Main.java → Application entry point
 
-▶️ How to Run
+#▶️ How to Run
 
 Clone the repository:
 
@@ -66,7 +66,7 @@ Open the project in an IDE (IntelliJ IDEA / Eclipse)
 Run the Main class
 
 
-📌 Future Improvements
+#📌 Future Improvements
 
 Sound effects
 
@@ -76,7 +76,7 @@ High score system
 
 Mobile version
 
-👤 Author
+#👤 Author
 
 Abdullah Karaismailoğlu
 
