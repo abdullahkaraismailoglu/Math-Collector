@@ -1,70 +1,70 @@
-# 🎮 Math Collector Game
+# 🎮 Math Collector
 
-Math Collector is a simple 2D arcade-style game developed using **Java Swing**.  
-The goal of the game is to collect correct mathematical answers while avoiding incorrect ones.
-
----
-
-## 📌 Project Overview
-
-This project was developed as part of an academic assignment to demonstrate:
-- Object-Oriented Programming (OOP)
-- Game logic implementation
-- Event handling
-- GUI development with Java Swing
-
-The game challenges the player’s reflexes and basic math skills.
+**Math Collector** is an educational arcade-style game designed to improve math skills, time management, and fast decision-making through interactive gameplay.
 
 ---
 
-## 🕹 How to Play
+## 🎯 Purpose & Learning Outcomes
 
-- The player controls a ball character.
-- Obstacles move from right to left across the screen.
-- Each obstacle contains a mathematical value.
-- **Correct answers increase the score.**
-- **Incorrect answers end the game.**
-- The game speed increases as the score increases.
+- Improve mental math skills  
+- Enhance time management ability  
+- Encourage fast decision-making  
+- Learn through gameplay  
 
 ---
 
-## 🎯 Game Features
+## 🕹️ Game Mechanics & Objective
 
-- Real-time obstacle generation
-- Collision detection
-- Score system
-- Level system with increasing difficulty
-- Restart functionality
-- Smooth animations using `Timer`
+- The player moves **left and right using arrow keys**
+- Numbers and bombs **fall from the top of the screen**
+- The goal is to **reach the target number** by collecting correct numbers
+- Avoid:
+  - Bombs
+  - Wrong numbers
+- Complete all levels **before time runs out**
 
----
-
-## 🎮 Controls
-
-| Key | Action |
-|---|---|
-| `SPACE` | Jump |
-| `R` | Restart the game after Game Over |
+> ⚠️ There is **no jump mechanic** in the game — movement is limited to left and right.
 
 ---
 
-## 🛠 Technologies Used
+## ⏱️ Scoring & Timing Mechanics
 
-- **Java**
-- **Java Swing**
-- **AWT**
-- **Object-Oriented Programming (OOP)**
+- Collecting a correct number: **+10 points**
+- Hitting a bomb: **-20 points**
+- Collecting a number that exceeds the target: **-5 points**
 
----
-
-## 🧠 Game Logic
-
-- Gravity and jump mechanics are implemented using velocity calculations.
-- Obstacles move dynamically based on the current game speed.
-- Collision detection is handled with rectangle intersection logic.
-- Score and level progression are managed dynamically during gameplay.
+### Time System
+- Game starts with **60 seconds**
+- Number collected: **+1 second**
+- Bomb hit: **-5 seconds**
+- At the beginning of each level, the player gains extra time based on a **percentage of the current score**
 
 ---
 
-## 📂 Project Structure
+## 🧩 Level System
+
+- The game consists of **5 levels**
+- With each level:
+  - Falling speed increases
+  - Number of bombs increases
+- When a level is completed:
+  - The current score is divided by a multiple of **5 (based on level)**
+  - The result is added to the remaining time
+- The **target number range increases** at each level
+
+---
+
+## 🏆 Main Objective
+
+The main objective is to **complete all 5 levels** with the **highest possible score** before time runs out.
+
+---
+
+## 🚀 Future Improvements
+
+- Sound effects and background music  
+- More levels with increased difficulty  
+- Different bomb types (slow / fast bombs)  
+- Pause and restart functionality  
+- Score leaderboard system  
 
